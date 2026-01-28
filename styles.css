@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  letter-spacing: 0, 5px;
+  font-size: 15px;
+}
+
+/* Content Header */
+
+header {
+  padding: 30px 40px 0px 20px;
+  background: black;
+}
+
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.logobox {
+  background-image: url("https://images.unsplash.com/photo-1592035659284-3b39971c1107?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2326");
+  width: 170px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.header-boxright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-boxright-top {
+  display: flex;
+}
+
+.searchbox {
+  padding: 2px 25px;
+}
+
+input[type="text"] {
+  background: none;
+  border: none;
+  color: grey;
+  border-bottom: 1px solid grey;
+  font-family:;
+  font-size: 15px;
+}
+
+.searchbutton {
+  background: none;
+  border: none;
+  color: grey;
+  font-size: 15px;
+}
+
+.p-icons {
+  font-size: 15px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.box-icons {
+  border: px solid green;
+  padding: 2px;
+}
+
+.headertext-box {
+  border: px solid yellow;
+}
+
+h1 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Instrument Serif", serif;
+  letter-spacing: 5px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: scroll;
+}
+
+nav li {
+  font-weight: 100;
+  font-family: "Instrument Serif", serif;
+  letter-spacing: 2px;
+  padding: 5px 15px;
+  border: 1px solid grey;
+  border-radius: 25px;
+  margin: 20px 15px;
+  white-space: nowrap;
+}
+
+nav li:hover {
+  border: 1px solid white;
+  background-color: #333333;
+}
+
+.headerh3 {
+  color: white;
+  font-family: "Instrument Serif", serif;
+  font-weight: 0;
+  letter-spacing: 2px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* main section */
+
+.mainproductbox {
+  margin: 4% 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.productbox {
+  width: 25%;
+  background-color: #f4f2f4;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.productbox img {
+  width: 70%;
+  align-self: center;
+}
+
+.productbox p {
+  padding: 5px;
+}
+
+.productbutton {
+  font-family:;
+  padding: 10px 15px;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  margin: auto auto;
+  background-color: white;
+}
+
+.productbutton:hover {
+  border: 1px solid black;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 26px;
+  font-family: "Instrument Serif", serif;
+  letter-spacing: 2px;
+  padding-top: 25px;
+}
+
+h3 {
+  font-weight: 600;
+  font-family: "Instrument Serif", serif;
+  letter-spacing: 2px;
+  color: grey;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* footer content */
+
+footer {
+  padding: 30px 40px 0px 20px;
+  background: black;
+}
+
+footer p,
+a {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
